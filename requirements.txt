@@ -1,7 +1,7 @@
 flask
 pdf2docx
 pillow
-comtypes.client
+comtypes
 pdf2image
 moviepy
 gunicorn
