@@ -527,5 +527,5 @@ if __name__ == '__main__':
     os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'resized'), exist_ok=True)
     app.run(debug=True)
       
-    # # Use Waitress to serve the Flask app
-    # serve(app, host='0.0.0.0', port=5000)
+    # # Use gunicorn to serve the Flask app
+    app.run(host='0.0.0.0', port=5000)
