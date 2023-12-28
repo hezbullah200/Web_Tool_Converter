@@ -8,5 +8,5 @@ gunicorn
 fitz  
 PyPDF
 fpdf
-os-sys
+os
 
