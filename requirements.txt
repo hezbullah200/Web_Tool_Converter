@@ -7,7 +7,7 @@ moviepy
 gunicorn
 fitz  
 PyPDF2
-pythoncom
+pywin32
 fpdf
 os
 
