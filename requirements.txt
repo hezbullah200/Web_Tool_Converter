@@ -8,5 +8,4 @@ gunicorn
 fitz  
 PyPDF
 fpdf
-os
 
