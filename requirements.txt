@@ -6,7 +6,7 @@ pdf2image
 moviepy
 gunicorn
 fitz  
-PyPDF2
-pypiwin32
+PyPDF
 fpdf
+os-sys
 
