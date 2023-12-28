@@ -8,6 +8,7 @@ from pdf2image import convert_from_path
 from moviepy.editor import VideoFileClip
 from waitress import serve
 from PIL import ImageFilter
+import gunicorn
 from comtypes.client import CreateObject
 import fitz  
 import mimetypes
