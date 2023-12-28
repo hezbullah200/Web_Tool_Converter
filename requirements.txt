@@ -9,5 +9,4 @@ fitz
 PyPDF2
 pypiwin32
 fpdf
-os-sys
 
