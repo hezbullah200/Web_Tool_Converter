@@ -121,5 +121,5 @@ python-dateutil==2.8.2
 python-docx==1.1.0
 python-json-logger==2.0.7
 python-time==0.3.0
-comtypes==1.1.7
+comtypes==1.2.0
 
