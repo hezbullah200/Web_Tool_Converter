@@ -6,7 +6,6 @@ pdf2image
 moviepy
 gunicorn
 fitz  
-mimetypes
 PyPDF2
 pythoncom
 fpdf
