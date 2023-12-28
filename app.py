@@ -519,13 +519,3 @@ def reduce_ppt_size(file, input_path, output_path):
 def about_page():
     return render_template('about.html')
 
-# Running the Flask app
-if __name__ == '__main__':
-    # Ensure 'uploads' and 'converted' directories exist
-    os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'uploads'), exist_ok=True)
-    os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'converted'), exist_ok=True)
-    os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'resized'), exist_ok=True)
-    app.run(debug=True)
-      
-   # Use gunicorn to serve the Flask app
-    app.run(host='0.0.0.0', port=5000)
